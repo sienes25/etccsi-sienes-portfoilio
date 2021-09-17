@@ -1,3 +1,14 @@
 {
     "liveServer.settings.port": 5501
 }
+{
+    "hosting": {
+      "public": "dist",
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/Dashboard.html"
+        }
+      ]
+    }
+  }
